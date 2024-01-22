@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    /* background-color: rgb(241, 245, 241);
+     */
+     /* background-color: #f7f7f7; */
+     background-color: #eff7fb;
+
+     /* background-color: #fdfaf6; */
+
+     /* background-color: #fce4ec; */
+
+    /* background-color: black; */
+}
+/* Dark Mode Styles */
+  

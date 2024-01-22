@@ -1,0 +1,102 @@
+
+.glass-morphism-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .glass-morphism-card .swiper-container {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .glass-morphism-card h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #6C63FF;
+  }
+  
+  .glass-morphism-card p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #4A5568;
+  }
+  
+  .glass-morphism-card .text-slate-800 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #1A202C;
+  }
+  
+  .glass-morphism-card .text-slate-600 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    color: #4A5568;
+  }
+  
+  .glass-morphism-card .text-green-700 {
+    color: #48BB78;
+  }
+  
+  .glass-morphism-card .text-green-600 {
+    color: #68D391;
+  }
+  
+  .glass-morphism-card .text-red-500 {
+    color: #F56565;
+  }
+  
+  .glass-morphism-card .text-white {
+    color: #FFFFFF;
+  }
+  
+  .glass-morphism-card .bg-slate-100 {
+    background-color: #EDF2F7;
+  }
+  
+  .glass-morphism-card .bg-slate-500 {
+    background-color: #718096;
+  }
+  
+  .glass-morphism-card .bg-slate-700 {
+    background-color: #2D3748;
+  }
+  
+  .glass-morphism-card .bg-slate-800 {
+    background-color: #1A202C;
+  }
+  
+  .glass-morphism-card .bg-purple-700 {
+    background-color: #6C63FF;
+  }
+  
+  .glass-morphism-card .bg-green-900 {
+    background-color: #48BB78;
+  }
+  
+  .glass-morphism-card .rounded-full {
+    border-radius: 9999px;
+  }
+  
+  .glass-morphism-card .hover\:opacity-95:hover {
+    opacity: 0.95;
+  }
+  
+  .glass-morphism-card button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: #2D3748;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  

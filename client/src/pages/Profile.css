@@ -1,0 +1,188 @@
+.profile-container {
+    display: flex;
+    /* max-width: 800px;
+    margin: 0 auto;
+    left: 0%; */
+  }
+  
+
+  
+  .sidebar-option {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-option:hover {
+    background-color: #ddd;
+  }
+  
+  .sidebar-option.selected {
+    background-color: #b0d4ff;
+  }
+  
+  .profile-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-you {
+    text-align: center;
+  }
+  
+  .about-you img {
+    border-radius: 50%;
+  }
+  
+  .user-info {
+    margin-top: 10px;
+  }
+  
+  .actions {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sign-out-button, .delete-account {
+    cursor: pointer;
+    color: #d9534f;
+    margin-top: 10px;
+  }
+  
+  .profile-form {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Glass morph effect */
+    background: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
+  }
+  
+  /* Adjust the styles for your form elements as needed */
+  .profile-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .profile-form img {
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .profile-form p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .your-listings {
+    text-align: center;
+    margin-top: 20px;
+ 
+
+    display: flex;
+    justify-content: center;
+  }
+  
+  .listing-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 800px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .listing-card img {
+    max-width: 60px;
+    max-height: 60px;
+    object-fit: contain;
+    margin-right: 15px;
+  }
+  
+  .listing-card button {
+    cursor: pointer;
+    color: #d9534f;
+    background: none;
+    border: none;
+  }
+  
+  /* .listing-card button:hover {
+    text-decoration: underline;
+  }
+   */
+  
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sidebar {
+    background-color: #333;
+    height: 100%;
+    color: #fff;
+    padding: 20px;
+    width: 200px;
+  }
+  
+  .sidebar-option {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #555;
+  }
+  
+  .sidebar-option.selected {
+    background-color: #555;
+  }
+  
+  .profile-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .user-info {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .profile-form {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .your-listings {
+    display: grid;
+    gap: 20px;
+  }
+  
+  /* .listing-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+   */
+  /* Add your other styling preferences here */
+  
